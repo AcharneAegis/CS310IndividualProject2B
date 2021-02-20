@@ -18,10 +18,10 @@ public class DatabaseTest {
         Connection conn = null;
         PreparedStatement pstSelect = null, pstUpdate = null;
         ResultSet resultset = null;
-        ResultSetMetaData metadata = null;
+        //ResultSetMetaData metadata = null;
         
-        String query, key, value;
-        String[] keys = new String[8];
+        String query;
+        //String[] keys = new String[8];
         //String newFirstName = "Alfred", newLastName = "Neuman";
         JSONObject jsonobject = new JSONObject();
         JSONArray arrayOfObjects = new JSONArray();
